@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Autocuidado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saúde e Autocuidado</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#alimentacao">Alimentação</a></li>
+                <li><a href="#atividade">Atividade Física</a></li>
+                <li><a href="#saudemental">Saúde Mental</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Cuide de você todos os dias</h2>
+        <p>Pequenas atitudes diárias podem transformar sua saúde e bem-estar.</p>
+        <button id="dicaBtn">Receber uma dica de autocuidado</button>
+        <p id="dicaTexto"></p>
+    </section>
+
+    <section id="alimentacao" class="content">
+        <img src="https://images.unsplash.com/photo-1556911073-52527ac437f5?auto=format&fit=crop&w=800&q=60" alt="Alimentos saudáveis">
+        <div>
+            <h2>Alimentação Saudável</h2>
+            <p>Uma alimentação equilibrada é essencial para manter o corpo e a mente em harmonia. Dê preferência a frutas, verduras, legumes e grãos integrais. Evite alimentos ultraprocessados e mantenha-se hidratado.</p>
+        </div>
+    </section>
+
+    <section id="atividade" class="content reverse">
+        <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=800&q=60" alt="Pessoa se exercitando">
+        <div>
+            <h2>Atividade Física</h2>
+            <p>Mexer o corpo faz bem! Caminhadas, alongamentos e esportes ajudam na circulação, no humor e na disposição. Encontre uma atividade que você goste e pratique regularmente.</p>
+        </div>
+    </section>
+
+    <section id="saudemental" class="content">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=60" alt="Saúde mental e relaxamento">
+        <div>
+            <h2>Saúde Mental</h2>
+            <p>Equilibrar corpo e mente é fundamental. Tire um tempo para si, pratique meditação, mantenha boas relações e procure ajuda quando precisar. O autocuidado também é emocional.</p>
+        </div>
+    </section>
+
+    <!-- 🔹 NOVA SEÇÃO DE CONTATO -->
+    <section id="contato" class="contact-section">
+        <h2>Entre em Contato</h2>
+        <p>Envie uma mensagem para tirar dúvidas, compartilhar experiências ou pedir orientações.</p>
+
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(DDD) 90000-0000" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+
+            <button type="submit">Enviar</button>
+            <p id="msgRetorno"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Saúde e Autocuidado | Desenvolvido com ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
