@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vida Saudável</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Vida Saudável</h1>
+        <p>Saúde, bem-estar e autocuidado para o seu dia a dia</p>
+    </header>
+
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="Bem-estar">
+        <div class="hero-text">
+            <h2>Cuide do corpo e da mente</h2>
+            <p>Pequenos hábitos podem transformar sua saúde.</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Cadastre-se para receber dicas</h2>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Seu nome" required />
+            <input type="email" id="email" placeholder="Seu e-mail" required />
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="mensagemSucesso"></p>
+    </section>
+
+    <section class="avaliacao-section">
+        <h2>Avalie nosso conteúdo</h2>
+        <div class="estrelas">
+            <span class="estrela" data-value="1">★</span>
+            <span class="estrela" data-value="2">★</span>
+            <span class="estrela" data-value="3">★</span>
+            <span class="estrela" data-value="4">★</span>
+            <span class="estrela" data-value="5">★</span>
+        </div>
+        <p id="resultadoAvaliacao"></p>
+
+        <form id="feedbackForm">
+            <textarea id="feedback" placeholder="Deixe um comentário..." required></textarea>
+            <button type="submit">Enviar Feedback</button>
+        </form>
+        <p id="mensagemFeedback"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Vida Saudável — Bem-estar para todos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
