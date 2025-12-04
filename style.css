@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5fdfc;
+    color: #003344;
+}
+
+header {
+    background: linear-gradient(90deg, #2fa5d3, #3bc77d);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    opacity: 0.75;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 70, 80, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #3bc77d;
+    outline: none;
+}
+
+button {
+    background: #2fa5d3;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3bc77d;
+}
+
+.estrelas {
+    font-size: 32px;
+    cursor: pointer;
+    color: #cccccc;
+}
+
+.estrela.selecionada {
+    color: #ffcc00;
+}
+
+footer {
+    background: #003344;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
